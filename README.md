@@ -46,3 +46,9 @@ The authors claim that if the number of training exaples is "not too small and n
 All given information about the neural network architecture was implemented by us. At some points, insufficient information was given about the implementaion. Therefore, some additional decisions were made.  
 
 For our models, we 
+
+.. all our own decisions
++ details can be found directly as comments in code 
+
+## Evaluation of results
+...
