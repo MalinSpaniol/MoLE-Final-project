@@ -24,7 +24,7 @@ Our aim is now to repuduce their study. We want to implement neural networks wit
 
 ## Current work
 
-### The simple neural network of Kiry and Hurford 
+### The simple neural network of Kirby and Hurford 
 The simple iterated learning model of Kirby and Hurford (2002) uses one neural network for each language learning agent. As the model is very simplified, one agents exemplifies one whole generation. One agents consists of a feed-forward networks with 8x8x8 structure, meaning that we have an input signal of 8 neurons, a hidden layer with 8 neurons and an output layer with 8 neurons. All neurons are fully connected.  
 Each network maps from 8bit binary numbers representing a signal to 8-bit binary numbers, representing a meaning. So to say, given an appropriate input, the agents can learn to parse utterances. 
 
