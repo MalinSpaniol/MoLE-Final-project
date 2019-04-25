@@ -61,7 +61,7 @@ Kirby & Hurford mention that no momentum is used and that a learning rate is 0.1
 As a measure of evaluation, we used the expressivity, considered the covered meaning space and the stability of the language, considered mean squared difference of signal-meaning-pairs between two consecutive generations.
 
 We use the size of the meaning space as a measure for the expressivity of the learned language of each generation. It is calculated by counting the number of different meanings in the output table. For this, we plotted a graph for 20, 50 and 2000 utterances, (such as in the paper), showing the percentage of covered meaning space across the number of generations.
-Further, we calculate the mean squared difference between the output tables giving the signal-meaning pairs of two consecutive generations, as a measure for stability of the language. Again, we plotted three graphs (for 20, 50 and 2000 utterances). 
+Further, we calculate the mean squared difference between the output tables giving the signal-meaning pairs of two consecutive generations, as a measure for stability of the language. Again, we plotted three graphs (for 20, 50 and 2000 utterances), which can be found in the Graphs folder. 
 
 All six graphs visualize, that there are huge fluctuations in our results, for all three cases ( 20, 50 and 2000 utterances). This means, that the covered meaning space and the mean squared difference between generations both fluctuate a lot. 
 
