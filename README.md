@@ -51,7 +51,7 @@ However, here we will summarize the most important decisions here.
 The training data is cut into batches to improve computation time and avoid local minima.
 Concerning the model, the activation of the output layer is a sigmoid function and weights are randomly initialized using the He initializer, which depends on the number of neurons of the previous layer (see references). The paper doesn't give any information about the activation function of the hidden layer, therefore we use the tangens hyperbolicus as it is a frequently used actiavtion function. The weights in the hidden layer are initialized using the Xavier initializer, which again depends on the number of neurons in the previous layer (or in our case the number of input neurons). The paper doesn't give a any information about the initialization of the biases, therefore we use the golden standard and initialize them with zeros.
 
-
+In the paper, it is mentioned, that no momentum is used and that a learning rate of 0.1 is used. However, what kind of loss is used is not mentioned specifically. We now used the Sigmoid Cross-Entropy loss, which is a Sigmoid activation plus a Cross-Entropy loss. Unlike Softmax loss it is independent for each vector component (class), meaning that the loss is computed for every output vector component and is not affected by other component values. That’s why it is used for multi-label classification, were the insight of an element belonging to a certain class should not influence the decision for another class. In our case the classes are 0 and 1 and we want to decide for each position in the 8-bit vector, whether it should be 1 or a 0.
 
 .. name all our own decisions
 + details can be found directly as comments in code 
