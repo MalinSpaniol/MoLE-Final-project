@@ -1,4 +1,5 @@
 # MoLE-Final-project
+### Sophia Schulze-Weddige & Malin Spaniol WS 18/19
 Artificial neural network to model iterated learning in language evolution 
 
 ## Background
