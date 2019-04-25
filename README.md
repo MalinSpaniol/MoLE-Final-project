@@ -72,6 +72,9 @@ We don't know why this is so, but the information about the implementation of th
 
 ## Bibliography
 Kirby, S., & Hurford, J. R. (2002). The Emergence of Linguistic Structure : An Overview of the Iterated Learning Model.
+
 Kirby, S., Griffiths, T., & Smith, K. (2014). ScienceDirect Iterated learning and the evolution of language. Current Opinion in Neurobiology, 28, 108–114. https://doi.org/10.1016/j.conb.2014.07.014
-Smith, K. (2003). Iterated Learning : A Framework for the Emergence of Language, 386, 371–386.
+
+Smith, K., Kirby, S. & Brighton, H. (2003). Iterated Learning : A Framework for the Emergence of Language, 386, 371–386.
+
 Smith, A. D. M. (2014). Models of language evolution and change, 5(June). https://doi.org/10.1002/wcs.1285
