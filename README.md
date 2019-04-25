@@ -44,11 +44,16 @@ The authors claim that if the number of training exaples is "not too small and n
 
 ### Extras of our network
 
-All given information about the neural network architecture was implemented by us. At some points, insufficient information was given about the implementaion. Therefore, some additional decisions were made.  
+All given information about the neural network architecture was implemented by us. At some points, insufficient information was given about the implementaion. Therefore, some additional decisions were made. The code in the project_spaniol_schulzeweddige.ipynb file is commented in a way, that all decisions are explained at every step which they were made.
 
-For our models, we 
+However, here we will summarize the most important decisions here. 
 
-.. all our own decisions
+The training data is cut into batches to improve computation time and avoid local minima.
+Concerning the model, the activation of the output layer is a sigmoid function and weights are randomly initialized using the He initializer, which depends on the number of neurons of the previous layer (see references). The paper doesn't give any information about the activation function of the hidden layer, therefore we use the tangens hyperbolicus as it is a frequently used actiavtion function. The weights in the hidden layer are initialized using the Xavier initializer, which again depends on the number of neurons in the previous layer (or in our case the number of input neurons). The paper doesn't give a any information about the initialization of the biases, therefore we use the golden standard and initialize them with zeros.
+
+
+
+.. name all our own decisions
 + details can be found directly as comments in code 
 
 ## Evaluation of results
